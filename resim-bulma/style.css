@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 224, 224);
+}
+#form-wrapper {
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+
+    #input {
+        width: 100%;
+        margin-bottom: 15px;
+        height: 30px;
+        padding: 7px;
+        border: 2px solid;
+        border-radius: 7px;
+        font-size: large;
+        font-family:cursive;
+    }
+
+    #button-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+button {
+    padding: 5px;
+    width: 100px;
+    border-radius: 7px;
+    font-size: large;
+    font-family:cursive;
+}
+button:hover{
+    background-color:rgb(26, 63, 137) ;
+    transition: 0.5s;
+    color: white;
+}
+
+#img-wrapper{
+    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 50px;
+
+   #card{
+    margin: 10px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 15px ;
+    padding: 10px;
+    
+}
+    
+}
